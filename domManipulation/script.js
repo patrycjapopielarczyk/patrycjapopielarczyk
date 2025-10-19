@@ -18,5 +18,5 @@ firstParagraph.style.color = "red";
 //const secondParagraph = document.querySelector("#'paragraph-for-button'");
 const button = document.querySelector("#changeColorBtn");
 button.addEventListener('click', function(){
-    alert("Przycisk klikniety")
+    button.style.backgroundColor = "orange"
 })
